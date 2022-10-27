@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Get log and store it into text file
+#get data
+git log -1 --shortstat > data/history_log.txt
+#Send store file to RevPro
+curl -X POST --data "@data/history_log.txt" "https://webhook.site/0aff6c9e-f361-46c8-9d74-9dd5f2ec08ff"
+
