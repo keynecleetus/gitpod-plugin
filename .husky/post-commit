@@ -1,7 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Get log and store it into text file edited
+# Get log and store it into text file edit
 #get data
 git log -1 --shortstat > data/history_log.txt
 #Send store file to RevPro
