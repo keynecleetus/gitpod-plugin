@@ -2,7 +2,9 @@
   "name": "gitpod-plugin",
   "displayName": "gitpod-plugin",
   "description": "to track students activities",
+  "publisher": "kyntrack",
   "version": "0.0.1",
+  "repository": "https://github.com/pavithra-nagarajan/gitpod-plugin",
   "engines": {
     "vscode": "^1.72.0"
   },

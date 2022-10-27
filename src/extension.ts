@@ -36,7 +36,7 @@ export async function activate(context: vscode.ExtensionContext) {
 export async function deactivate() {
 	console.log("extension stopped");
 	let payload = { date:  new Date(), purpose: 'extension stopped' };
-	await axios.post('https://webhook.site/f4722056-8d9c-4303-bde5-c1d257e2b54c',payload);
+	await axios.post('https://webhook.site/0aff6c9e-f361-46c8-9d74-9dd5f2ec08ff',payload);
 }
 function promptForApiKey() {
 	var defaultVal = "";
